@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="logo" href="./assests/logo.PNG">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib-option">
+                    <img src="./assests/library_icon.PNG">
+                    <a href="#">Your Library</a>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>    
+                <div class="lib-box">
+                    <div class="box1">
+                        <div class="boxp1"><p>Create your first playlist</p></div>
+                        <div class="boxp2"><p>It's easy we'll help you</p></div>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box2">
+                        <div class="boxp1"><p>Let's find some podcasts to follow </p></div>
+                        <div class="boxp2"><p>We'll keep you updated with new episodes</p></div>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-img">
+                    <img src="./assests/backward_icon.png">
+                    <img class="hide" src="./assests/forward_icon.png">
+                </div>
+                <div class="sticky-nav-but" style="display: flex;">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge " id="uniquebt"><i class="fa-solid fa-download"></i>Install App</button>
+                    <button class="badge" id="aadmi" ><i class="fa-solid fa-user"></i></button>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="card">
+                    <div class="card-container">
+                    <img src="./assests/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 Global</p>
+                    <p class="card-info">your daily updates of the most played track.....</p>
+                </div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Trending Now On Spotify</h2>
+                <div class="card">
+                    <div class="card-container">
+                        <img src="./assests/card2img.jpg" class="card-img">
+                        <p class="card-title">Mahiya Jinna Sona</p>
+                        <p class="card-info">Single. Darshan Raval</p>
+                    </div>
+                    <div class="card-container">
+                        <img src="./assests/card3 (2).jpg" class="card-img">
+                        <p class="card-title">Tum Kya Mile(From"..</p>
+                        <p class="card-info">Single. Pritam,Arijit Singh,Shreya Ghosal</p>
+                    </div>
+                    <div class="card-container">
+                    <img src="./assests/card3img.JPG" class="card-img">
+                    <p class="card-title">Mera Paas Tum Ho</p>
+                    <p class="card-info">Rahat Fateh Ali Khan(lofi ...</p>
+                   </div>  
+                    <div class="card-container">
+                        <img src="./assests/card3 (1).jpg" class="card-img">
+                        <p class="card-title">Yaar Ka Sataye Hua Hai</p>
+                        <p class="card-info">B Praak</p>
+                    </div>  
+                    <div class="card-container">
+                        <img src="./assests/card3 (3).jpg" class="card-img">
+                        <p class="card-title">Tumhe Kitna Pyaar Ka..</p>
+                        <p class="card-info">Single. Mithoon,Arijit Singh,Manoj Muntashir</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Throwback</h2>
+                <div class="card">
+                    <div class="card-container">
+                        <img src="./assests/1.jpg" class="card-img">
+                        <p class="card-info">Pritam, Atif Aslam, Vishal-Shekhar,Shrey..</p>
+                    </div> 
+                    <div class="card-container">
+                        <img src="./assests/2.jpg" class="card-img">
+                        <p class="card-info">A.R.Rahman, Alka Yagnik, Udit Narayan,..</p>
+                    </div>  
+                    <div class="card-container">
+                        <img src="./assests/3.jpg" class="card-img">
+                        <p class="card-info">Jimin, Stray Kids, Jung Kook, SEVENTEEN, T...</p>
+                    </div>  
+                    <div class="card-container">
+                        <img src="./assests/4.jpg" class="card-img">
+                        <p class="card-info">Taylor Swift, The Weekend, Drake, Kany...</p>
+                    </div>  
+                    
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+    
+        <div class="music-player" >
+            <div class="album">
+                <img src="./assests/aada.jpg" class="album-img">
+                <div class="album-data">
+                    <div class="album-title">UFF Teri Adaa</div>
+                    <div class="album-info">Shankar Mahadevan,Alyssa Mendonsa</div>
+                </div>
+                <div class="album-logo"><i class="fa-regular fa-heart"></i></div>
+            </div>
+            <div class="player">
+                <div class="music-conrol">
+                    <img class="music-control-icons" src="./assests/player_icon1.PNG" style>
+                    <img class="music-control-icons" src="./assests/player_icon2.PNG">
+                    <img class="music-control-icons" src="./assests/player_icon3.PNG" style="opacity:1;height:2rem;">
+                    <img class="music-control-icons" src="./assests/player_icon4.PNG">
+                    <img class="music-control-icons" src="./assests/player_icons5.PNG">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="end-time">03.40</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="ic">
+                  <img class="ic-img" src="./assests/player_icon3.PNG">
+                   <!-- <img class="ic-img" src="./assests/mic.PNG" style="height:45px; width:35px; margin:0;"> -->
+                   <img class="ic-img" src="./assests/control.jpg" >
+                   <img class="ic-img" src="./assests/computer.PNG">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
